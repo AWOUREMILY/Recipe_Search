@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #023a15ec;
+    color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+button i{
+    pointer-events: none;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background: transparent;
+}
+
+.searchHolder{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    /* display: none; */
+}
+
+.searchHolder h1{
+    font-size: 2.0rem;
+    font-weight:bold;
+    letter-spacing: 2px;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+.searchHolder input{
+    width: 70%;
+    height: 3rem;
+    text-align: center;
+    color: whitesmoke;
+    background: transparent;
+    outline: none;
+    border: solid 1px blue;
+     border-radius: 0.5rem;
+     font-size: 1rem;
+}
+
+.searchHolder input:hover{
+    background: mediumblue;
+}
+
+.searchHolder button{
+    width: 25%;
+    height: 3rem;
+    font-size: 1.5rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: yellow;
+    cursor: pointer;
+}
+
+.searchHolder button:hover{
+    background: rgb(43, 100, 223);
+}
+
+.searchHolder button i{
+    padding: 0;
+    margin: 0;
+}
+
+.Results{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+
+
+.food-item{
+    background: rgba(13, 185, 99, 0.849);
+    box-shadow: 0 8px 32px 0 rgba(3, 58, 6, 0.37);
+    backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba(173, 173, 173, 0.18);
+    padding: 1rem;
+    margin: 1rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.food-item .imageHolder{
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+}
+
+.food-item .imageHolder img{
+    width: 100%;
+    height:100%;
+}
+
+.details{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.details .label{
+    font-size: 0.9rem;
+    margin: 0.25rem;
+}
+
+.food-item button{
+    background: rgba(144, 255, 34, 0.568);
+    width: 5.0rem;
+    height:2.0rem;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: red;
+    border-radius: 3px;
+}
+
+
+.food-item button:hover{
+    background: rgb(8, 48, 3);
+}
+
+.food-item .details button a{
+    font-size: 0.8rem;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
